@@ -1,0 +1,79 @@
+/* Your CSS styles here! */
+
+header,
+nav {
+  padding: 20px;
+  display: inline-block;
+  width: 500px;
+  margin: auto;
+}
+
+a[href] {
+  color: #5F9EA0;
+}
+
+
+li {
+  display: inline;
+}
+
+
+img,
+#covidsection,
+#askdoc,
+#form {
+  height: auto;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1,
+h2 {
+  font-size: 50px;
+  font-family: optima, sans-serif;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  color: #5F9EA0;
+}
+
+h2 {
+  font-size: 20px;
+  border-style: solid;
+  border-color: #581845;
+  padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #5F9EA0;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  color: #5F9EA0;
+}
+
+#covidsection {
+  border-style: solid;
+  border-color: #FF5733;
+  padding: 10px;
+}
+
+
+#covidsection h3 {
+  font-size: 30px;
+
+}
+
+#welcome p {
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 40px;
+}
