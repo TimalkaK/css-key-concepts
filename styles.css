@@ -2,21 +2,48 @@
 
 header,
 nav {
-  padding: 20px;
+  padding: 20px 60px 20px 50px;
   display: inline-block;
-  width: 500px;
+  /*width: 500px;*/
   margin: auto;
+
 }
 
-a[href] {
+a:link {
+  text-decoration: none;
+}
+
+a:hover,
+button:hover,
+#form input[value]:hover {
+  background-color: #ddd;
   color: #5F9EA0;
 }
 
 
-li {
-  display: inline;
+a[href],
+label,
+button,
+#form input[value] {
+  color: #5F9EA0;
+  font-size: 17px;
+  padding: 5px;
 }
 
+button,
+#form input[value] {
+  color: white;
+  font-size: 15px;
+  border: none;
+  background-color: #5F9EA0;
+}
+
+
+
+li {
+  display: inline;
+  padding: 5px;
+}
 
 img,
 #covidsection,
@@ -34,19 +61,19 @@ h2 {
   font-size: 50px;
   font-family: optima, sans-serif;
   margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #5F9EA0;
 }
 
 h2 {
   font-size: 20px;
   border-style: solid;
-  border-color: #581845;
+  color: white;
+  background-color: #5F9EA0;
   padding: 10px;
 }
 
 h1,
-h2,
 h3 {
   text-align: center;
   color: #5F9EA0;
@@ -61,7 +88,7 @@ p {
 #covidsection {
   border-style: solid;
   border-color: #FF5733;
-  padding: 10px;
+  padding: 20px;
 }
 
 
@@ -76,4 +103,22 @@ p {
 
 form {
   margin-bottom: 40px;
+}
+
+#form legend,
+#form label,
+#form p,
+#form input {
+  text-align: left;
+  font-size: 15px;
+  color: #756561;
+  padding: 5px;
+  margin: 10px;
+}
+
+#message {
+  width: 50%;
+  overflow: hidden;
+  min-height: 20px;
+  line-height: 20px;
 }
